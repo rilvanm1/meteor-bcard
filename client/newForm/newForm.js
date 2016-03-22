@@ -11,7 +11,7 @@ Template.newForm.events({
 
 		//console.log(firstName);
 		Session.set('firstName', firstName);
-		Session.set('lastNmae', lastName);
+		Session.set('lastName', lastName);
 		Session.set('quote', quote);
 		Session.set('gender', gender);
 		Session.set('githubLink', githubLink);
